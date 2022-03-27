@@ -11,6 +11,7 @@
   inputs.src-nimics-0_2_0.ref   = "refs/tags/0.2.0";
   inputs.src-nimics-0_2_0.owner = "ThomasTJdev";
   inputs.src-nimics-0_2_0.repo  = "nimics";
+  inputs.src-nimics-0_2_0.dir   = "";
   inputs.src-nimics-0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
